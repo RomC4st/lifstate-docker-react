@@ -2,9 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm install`
 
+* Install dependencies
+
 ### `docker build -t sample:dev .` 
 
-Build docker image
+* Build docker image
 
 ### `docker run -it --rm --network="host" -v ${PWD}:/app -v /app/node_modules  -p 3001:3000 -e CHOKIDAR_USEPOLLING=true sample:dev`
 
