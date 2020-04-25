@@ -13,4 +13,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Mounts the code into the container “/app” and run docker image to localhost
 * {PWD} may not work on Windows. See [this](https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown) Stack Overflow question for more info.
 
-# lifstate-docker-react
