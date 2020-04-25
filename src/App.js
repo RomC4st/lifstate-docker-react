@@ -1,4 +1,3 @@
-// import React, { useState } from 'react';
 import React, { Component } from 'react'
 import style from './App.module.css';
 import Test from './component/Test.js'
@@ -9,16 +8,9 @@ class App extends Component {
     count: 0,
     countChild: 0
   }
-  // const[count, setCount] = useState(0);
   liftstate = (countChild) => {
     this.setState({ countChild: countChild })
-    // countClickChild = countChild * 2
-    // console.log("App:", countClickChild)
   }
-  // console.log("App:", countClickChild)
-  // componentDidUpdate = (prevState, nextState) => {
-  //   console.log(prevState, nextState)
-  // }
 
   render() {
     const { count, countChild } = this.state;
