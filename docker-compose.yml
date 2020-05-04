@@ -1,0 +1,12 @@
+version: '2.0'
+services:
+  web:
+    build: .
+    ports:
+    - "3001:3000"
+    network_mode: host
+    volumes:
+    - ${PWD}:/app
+    - /app/node_modules 
+
+  
